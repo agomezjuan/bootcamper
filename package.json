@@ -1,0 +1,27 @@
+{
+  "name": "devcamper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agomezjuan/bootcamper.git"
+  },
+  "author": "Alberto Gómez Juan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agomezjuan/bootcamper/issues"
+  },
+  "homepage": "https://github.com/agomezjuan/bootcamper#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  }
+}
